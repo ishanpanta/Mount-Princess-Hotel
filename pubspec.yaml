@@ -1,0 +1,88 @@
+name: mount_princess_hotel
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+dependencies:
+  cached_network_image: ^3.2.0
+  carousel_slider: ^4.0.0
+  cloud_firestore: ^3.1.6
+  cupertino_icons: ^1.0.2
+  email_validator: ^2.0.1
+  firebase_auth: ^3.3.5
+  firebase_core: ^1.11.0
+  firebase_messaging: ^11.2.13
+  firebase_storage: ^10.2.5
+  flutter:
+    sdk: flutter
+  flutter_staggered_grid_view: ^0.4.0
+  flutter_svg: ^1.0.3
+  google_fonts: ^2.0.0
+  http: ^0.13.4
+  image: ^3.1.3
+  image_cropper: ^1.5.0
+  image_picker: ^0.8.4+4
+  intl: ^0.17.0
+  lottie: ^1.3.0
+  path_provider: ^2.0.8
+  pinch_zoom_image_updated: ^0.2.6
+  pinput: ^0.2.6
+  provider: ^6.0.2
+  telephony: ^0.1.4
+  timeago: ^3.2.2
+  twilio_flutter: ^0.0.9
+  url_launcher: ^6.0.20
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.svg
+    - assets/images/burger.jpg
+    - assets/images/breakfast.jpg
+    - assets/images/desert.jpg
+    - assets/images/breakfast.png
+    - assets/images/hotel_image.jpg
+    - assets/text/about_us.txt
+    - assets/images/single_room.jfif
+    - assets/images/standard_room.jpg
+    - assets/images/phoneVerfication.jpg
+    - assets/images/logo.jpg
+  #   - images/a_dot_ham.jpeg
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  # -family: Roboto
+  #   fonts:
+  #     - asset: Roboto-BlackItalic.ttf
+  #       weight: 900
+  #       style: italic
+  # - family: Roboto
+  #   fonts:
+  #     - asset: fonts/Roboto-Regular.ttf
+  #       # - asset: fonts/Schyler-Italic.ttf
+  #       weight: 200
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
