@@ -16,15 +16,6 @@ void main() async {
 
   // for web need to provide with more info.
   if (kIsWeb) {
-    await Firebase.initializeApp(
-      options: const FirebaseOptions(
-        apiKey: "AIzaSyDeeGl_DD6VtuhK4cVdrBugzwEp7KaOA3s",
-        appId: "1:102907477996:web:3554a298c3e3201804cac9",
-        messagingSenderId: "102907477996",
-        projectId: "mount-princess-hotel",
-        storageBucket: "mount-princess-hotel.appspot.com",
-      ),
-    );
   } else {
     await Firebase.initializeApp();
   }
